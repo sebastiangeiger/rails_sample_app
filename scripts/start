@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
-cd /rails
+cd /rails/rails_sample_app
 bundle exec rails server

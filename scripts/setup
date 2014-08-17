@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-cd /rails
+cd /rails/rails_sample_app
 bundle install --without development test --path vendor/bundle
 bundle exec rake db:create
 bundle exec rake db:migrate
